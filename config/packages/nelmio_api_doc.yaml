@@ -1,0 +1,13 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: "RentACar API"
+            description: "RentACar API Documentation"
+            version: "1.0.0"
+    areas:
+        - name: 'default'
+          path_patterns:
+              - ^/api/vehicle
+    media_types:
+        - application/json
+    use_validation_groups: false
